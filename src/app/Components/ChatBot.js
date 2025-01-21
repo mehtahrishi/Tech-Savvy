@@ -3,7 +3,7 @@ import 'react-chatbot-kit/build/main.css'
 
 const ChatBot = () =>{
     return(
-        <p> Hrishi </p>
+       <ChatBot />
     )
 }
 export default ChatBot;
