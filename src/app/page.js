@@ -1,9 +1,13 @@
-import ChatBot from "./Components/ChatBot";
+'use client'
+import ChatComponent from "./Components/ChatComponent";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
- <div>
-  <ChatBot />
- </div>
+    <div className={styles.page}>
+      <main className={styles.main}>
+        <ChatComponent />
+        </main>
+    </div>
   );
 }
