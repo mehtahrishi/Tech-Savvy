@@ -166,3 +166,14 @@ a.secondary {
     filter: invert();
   }
 }
+.container {
+  background-image: url('/test.gif'), url('/fallback-image.jpg'); /* Add a fallback image */
+  background-repeat: repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000; /* Add a background color to ensure something is visible */
+}
